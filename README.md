@@ -33,5 +33,3 @@ If the complain was:
 GARBAGE bytcode encountered
 ```
 Then its probably because the bytecode is added after this tool was built (or the contract is nonsense).
-
-I have many burgers to flip.
