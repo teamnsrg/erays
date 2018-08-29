@@ -12,7 +12,7 @@ To run Erays, use the structurer on a file that contains contract hex string, fo
 $ python structurer.py temp/temp.hex
 ```
 Now pdf (yes, brain damage) file for each function in the contract will magically appear in the **temp** directory. 
-The internal functions are labeled starting from 0x0. The eternal functions are named after the function signature.
+The internal functions are labeled starting from 0x0. The external functions are named after the function signature.
 A more complex example would be:
 ```sh
 $ python structurer.py temp/0x61edcdf5bb737adffe5043706e7c5bb1f1a56eea.hex
